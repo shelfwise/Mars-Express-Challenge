@@ -216,8 +216,8 @@ with a standard deviation of 0 were removed. Additional transformations were app
 to the data in order to conform with the required input format of recurrent models.
 
 Through our experiments. we have found classic dense networks to outperform other 
-neural models. Results generated with ANN models were more stable and gave better 
-results in cross validation. Custom architectures were created for each output power line, 
+neural models. Results generated with ANN models were more stable and performed
+better in cross validation. Custom architectures were created for each output power line, 
 and meaningful improvements were achieved for lines 2451 and 2851. 
 These results were produced by a 6-layer network with the number of units 
 increasing from 64 to 256 (for 2451) and a 3-layer network with 128 units per layer (for 2851). 
@@ -296,8 +296,8 @@ file to the *test_set* folder.
 Now you can regenerate the solution by running two bash scripts:
 
 ```
-prepare_data.sh
-create_submission.sh
+$ sh prepare_data.sh
+$ sh create_submission.sh
 ```
 
 # Acknowledgements
