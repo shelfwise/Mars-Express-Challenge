@@ -250,7 +250,8 @@ have found that subsituting a median lowers RMSE but a larger factor.
 A final RMSE of 0.0819 (both on public and private test sets) was obtained by 
 combining all the above steps:
 - removing the 1st Martian year from the training data,
-- training an xgboost model for each power line, 
+- training an xgboost model for each power line on dataset1, 
+except for NPWD2451 and NPWD2532 which were trained on dataset2,
 - bagging xgboost in NPWD2451, NPWD2532, NPWD2551 and NPWD2851,
 - ensembling bagged xgboost with a neural network in NPWD2451 and NPWD2851, 
 - exploiting relationship between subsystem AOOO and NPWD2881,
