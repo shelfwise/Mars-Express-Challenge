@@ -170,7 +170,7 @@ last part of the 3rd Martian year.
 *Actual and predicted current. The model is based only on simple on/off commands
 of the AOOO subsystem.*
 
-Using only AOOO a simple linear regression obtains RMSE=0.053. For comparison, 
+Using only AOOO a linear regression obtains RMSE=0.053. For comparison, 
 the simplest constant value prediction computed as a mean current
 from previous Martian years gives RMSE ~0.13, and an xgboost model with all features
 achieves RMSE of ~0.09. With AOOO commands feeded into xgboost we have obtained a 
@@ -301,8 +301,15 @@ $ sh prepare_data.sh
 $ sh create_submission.sh
 ```
 
-# Acknowledgements
-Thank you to ESA for organizing this incredibly interesting competition.
 
-Thank you also to [Alexander Bauer](https://github.com/alex-bauer) for opensourcing
-a portion of his code early in the competition and for sharing his cross-validation strategy.
+# Acknowledgements
+A special thanks to ESA for organizing this incredibly interesting challenge, 
+and to [Redouane Boumghar](https://www.linkedin.com/in/boumghar) 
+for his excellent maintenance of the competition.
+
+Thank you also to [Alexander Bauer](https://www.linkedin.com/in/alexander-bauer-a5913615) 
+for opensourcing a portion of his code early in the competition and
+for sharing his cross-validation strategy.
+
+And thank you to Alexander Bauer and [Keith Trnka](https://www.linkedin.com/in/keith-trnka-87044831) 
+for being open about their approaches to the problem.
