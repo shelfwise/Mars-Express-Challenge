@@ -305,7 +305,9 @@ $ sh create_submission.sh
 # Acknowledgements
 A special thanks to ESA for organizing this incredibly interesting challenge, 
 and to [Redouane Boumghar](https://www.linkedin.com/in/boumghar) 
-for his excellent maintenance of the competition.
+for his excellent maintenance of the competition. 
+Throughout the challenge we learned a lot about the MEX and ESA's missions in general, 
+while having fun and honing our data science skills. It has been a pleasure to participate.
 
 Thank you also to [Alexander Bauer](https://www.linkedin.com/in/alexander-bauer-a5913615) 
 for opensourcing a portion of his code early in the competition and
