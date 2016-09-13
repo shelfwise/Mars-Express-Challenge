@@ -5,7 +5,7 @@ hosted by the European Space Agency : https://kelvins.esa.int/mars-express-power
 
 **Authors**:
 * [Rafal Cycon](https://www.linkedin.com/in/rafalcycon)
-* [Krzysztof Kolasinski](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* [Krzysztof Kolasinski](http://home.agh.edu.pl/~kkol/?p=Kontakt)
 * [Wojciech Kryscinski](https://www.linkedin.com/in/wkryscinski)
 * [Tomasz Zietek](https://linkedin.com/in/tomasz-zietek-5362a263)
 
